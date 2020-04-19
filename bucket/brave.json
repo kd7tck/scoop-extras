@@ -1,5 +1,5 @@
 {
-    "version": "1.4.96",
+    "version": "1.7.92",
     "description": "Secure, Fast & Private Web Browser with Adblocker",
     "homepage": "https://brave.com",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/brave/brave-browser/releases/download/v1.4.96/brave_installer-x64.exe#/dl.7z",
-            "hash": "d9e7dd4f7597b6cec73dd49a23c52f4da87a8c25ccf837b8c3a8c7a70895606f"
+            "url": "https://github.com/brave/brave-browser/releases/download/v1.7.92/BraveBrowserSetup.exe#/dl.7z",
+            "hash": "20ECA05473DCCB4183AE555BEE29B6C605260EEA603ABA77A5AD34CAA7C13CE0"
         },
         "32bit": {
-            "url": "https://github.com/brave/brave-browser/releases/download/v1.4.96/brave_installer-ia32.exe#/dl.7z",
-            "hash": "683a5f4e1295cb26acbff648864939e529243e1f6df4451a857aa8c2ed4794fe"
+            "url": "https://github.com/brave/brave-browser/releases/download/v1.7.92/BraveBrowserSetup32.exe#/dl.7z",
+            "hash": "B0F14F95761E0C5EF6105EDB3C7C5B9BCB387CAB6A59FB81DB7955FA7805E872"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal",
